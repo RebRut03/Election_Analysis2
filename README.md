@@ -18,7 +18,9 @@
   - Jefferson: 10.5% (38,855)
   - Denver: 82.8% (306,055)
   - Arapahoe: 6.7% (24,801)
-  - I created the following for loop to come up with these numbers 
+  - The following image illustrates the for loop that was created to come up with the county results.
+   
+   ![County_Vote_Findings](Resources/County_Vote_Findings.PNG)
   
            
 - County with Largest Number of Votes:

@@ -7,7 +7,9 @@
   - The county with the highest turnout
 
 
-## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+## Election Audit Analysis and Results
+- The following are the election audit findings that were provided to the election commission.
+  ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 - How many votes were cast in this congressional election? 
   - 369,711
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.

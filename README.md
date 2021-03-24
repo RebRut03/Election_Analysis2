@@ -17,14 +17,13 @@
     Arapahoe: 6.7% (24,801)
 - Which county had the largest number of votes?
   - Denver
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-  - Candidate Votes:
-    - Charles Casper Stockham: 23.0% (85,213)
-    - Diana DeGette: 73.8% (272,892)
-    - Raymon Anthony Doane: 3.1% (11,606) 
-  - Associated code:
+- Candidate Names, Voting Percentage, and Number of Votes:
+   - Charles Casper Stockham: 23.0% (85,213)
+   - Diana DeGette: 73.8% (272,892)
+   - Raymon Anthony Doane: 3.1% (11,606) 
+   - Associated code:
     - `votes = candidate_votes.get(candidate_name)
-        
+    
         vote_percentage = float(votes) / float(total_votes) * 100
         
         candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")`

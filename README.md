@@ -1,5 +1,10 @@
 # Election Analysis Audit Results
 
+- Seth and Tom enlisted my help with an election audit to provide a breakdown of the number of votes and percentage of the total votes each candidate received and which candidate won the election, their vote count, and their percentage of total votes.  These results were shared with the election commission, and the commission has requested some additional data to complete the audit:
+  - The voter turnout for each county
+  - The percentage of votes from each county out of the total count
+  - The county with the highest turnout
+
 ## Overview of Election Audit: Explain the purpose of this election audit analysis.
 ## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 - How many votes were cast in this congressional election? 

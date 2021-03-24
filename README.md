@@ -22,6 +22,12 @@
     Charles Casper Stockham: 23.0% (85,213)
     Diana DeGette: 73.8% (272,892)
     Raymon Anthony Doane: 3.1% (11,606) 
+  - Associated code:
+    `votes = candidate_votes.get(candidate_name)
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")`
+    
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   - Winner: Diana DeGette
 Winning Vote Count: 272,892

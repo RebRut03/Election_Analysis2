@@ -26,6 +26,7 @@
 - County with Largest Number of Votes:
   - Denver
   - An if statement was created to show Denver county residents cast the largest number of votes.
+    
     `if (county_vote_count > largest_turnout_votes):
             largest_turnout_votes = county_vote_count
             largest_turnout_county = county_name`

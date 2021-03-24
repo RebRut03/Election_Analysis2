@@ -9,7 +9,9 @@
 
 ## Election Audit Analysis and Results
 - The following are the election audit findings that were provided to the election commission.
-  ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+
+  ![Election Results Findings](Resources/Election Results Findings.PNG)
+  
 - How many votes were cast in this congressional election? 
   - 369,711
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.

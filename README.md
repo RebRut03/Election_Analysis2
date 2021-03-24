@@ -38,8 +38,13 @@
   - Winner: Diana DeGette
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8% 
+
 ## Election Audit Summary
-- As the project a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
-- As the project manager of this project, I created code that could be geared to work for all types of elections: local, state, and national.  With a few modifications, the election commission could use this code for future elections without having to re-invent the wheel and without having to pay for a full audit again.  For a fee that would equate to two hours (at $x/hour),  I would be willing to provide support to the election commission for future elections and provide the following modifications per election.
-- Give at least two examples of how this script can be modified to be used for other elections.
-- For example, if the election commission is going to monitor or audit national elections next year.  Some examples of the services and modifactions that would be made would be to clean future election data, upload and read the csv files.  I also would create new variables and scripts very similar to the candiates and counties, but create it for the national election.
+
+- As the project manager of this election audit, I created code that can be geared to work for all types of elections: local, state, and national.  With a few modifications, the election commission could reuse this code for future election audits.  Reusing this code could save the election commission a considerable amount of time and resources.  It could prevent the election commission from putting forth extra hours to re-invent the wheel, and it also could prevent the commission from paying for another full audit. I will be available to provide support to the commission staff for a small hourly fee ($x/hour) until the staff are up to speed with the changes that need to be made per election. 
+
+- Some modifications will need to be made to the code per election.  Regardless of what type of election the commission would want to use the code for, the commission would need to ensure they had the new election information included in the csv data and to upload/read a new csv file per each specific election.  If the election commission is going to monitor elections from a local perspective next year, the commission could replace everything that refers to the "county" with "city" double checking that the index is correct in the new code.  If they wanted to track city information in addtion to the current county information, there would need to be serveral additions to the code, but it would be very similar to the county/candidate script.  A few modifications could include: creating a city list and city votes dictionary, tracking the largest voter turnout by city by initiating a string to hold the name of the largest turnout city and a variable for the number of votes for that city.  Then adding a new for loop to pass through each row of the city data to add the city names and votes for the desired output.  
+
+- This may seem complex, but as stated in my proposal, I would be willing to assist the commission staff with these changes as necessary or until they are confident in their abilities which would save the commission valuable time and money in the future.  
+
+- Thank you for your consideration. 

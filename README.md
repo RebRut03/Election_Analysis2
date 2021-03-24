@@ -8,7 +8,7 @@
 
 
 ## Election Audit Analysis and Results
-- The following are the election audit findings that were provided to the election commission.
+- The following are the election audit findings that were provided to the election commission.  Please refer to election_results.txt file for the original output assoicated with the follwoing image.
 
   ![Election_Results_Findings](Resources/Election_Results_Findings.PNG)
 
@@ -25,7 +25,7 @@
            
 - County with Largest Number of Votes:
   - Denver
-  - I created an if statement to come up with the county with the largest number of votes.
+  - An if statement was created to show Denver county residents cast the largest number of votes.
     `if (county_vote_count > largest_turnout_votes):
             largest_turnout_votes = county_vote_count
             largest_turnout_county = county_name`
@@ -33,8 +33,7 @@
    - Charles Casper Stockham: 23.0% (85,213)
    - Diana DeGette: 73.8% (272,892)
    - Raymon Anthony Doane: 3.1% (11,606) 
-   - Associated code: `votes = candidate_votes.get(candidate_name) vote_percentage = float(votes) / float(total_votes) * 100 candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")`
-- Election Results:
+   - Election Results:
   - Winner: Diana DeGette
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8% 

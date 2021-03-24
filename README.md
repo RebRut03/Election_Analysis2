@@ -9,7 +9,7 @@
 
 ## Election Audit Analysis and Results
 - The following are the election audit findings that were provided to the election commission.
- ![Election Results Findings](Resoucces/Election Results Findings.PNG)
+ ![Election Results Findings](Resources/Election Results Findings.PNG)
 
   
 - How many votes were cast in this congressional election? 

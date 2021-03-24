@@ -10,7 +10,7 @@
 ## Election Audit Analysis and Results
 - The following are the election audit findings that were provided to the election commission.
 
-![Election_Results_Findings](Resources/Election_Results_Findings.PNG)
+  ![Election_Results_Findings](Resources/Election_Results_Findings.PNG)
 
 - Total Votes Cast: 
   - 369,711
@@ -18,8 +18,15 @@
   - Jefferson: 10.5% (38,855)
   - Denver: 82.8% (306,055)
   - Arapahoe: 6.7% (24,801)
+  - I created the following for loop to come up with these numbers 
+  
+           
 - County with Largest Number of Votes:
   - Denver
+  - I created an if statement to come up with the county with the largest number of votes.
+    `if (county_vote_count > largest_turnout_votes):
+            largest_turnout_votes = county_vote_count
+            largest_turnout_county = county_name`
 - Individual Candidate Names, Voting Percentage, and Number of Votes:
    - Charles Casper Stockham: 23.0% (85,213)
    - Diana DeGette: 73.8% (272,892)
